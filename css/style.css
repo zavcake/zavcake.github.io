@@ -1,0 +1,51 @@
+header {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.bodas {
+    color: white;
+    text-decoration: none;
+}
+
+.bilah {
+    color: white;
+    padding: 10px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 5px 16px;
+    border-radius: 40px;
+}
+
+.search-box .search-icon {
+    font-size: 1.18rem;
+    color: #0d6efd;
+}
+
+.search-box .search-input {
+    transition: .5s;
+    width: 0px;
+    overflow: hidden;
+}
+.search-input .input {
+    border: none;
+    outline: none;
+    background-color: unset;
+}
+
+.search-box:hover .search-input {
+    width: 200px;
+    margin-left: 8px;
+}
+.jarak {
+    padding-bottom: 20px;
+}
+@media (max-width: 992px){
+.navbar-expand-lg .search-box {
+    display: none;
+}
+}
